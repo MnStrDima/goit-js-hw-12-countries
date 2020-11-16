@@ -72,6 +72,7 @@ export class CountriesQuery {
       this._refs.section.innerHTML = '';
       return;
     }
+    debugger;
     fetchCountries(countryName)
       .then(this.onDataReceived.bind(this))
       .catch(console.log);
